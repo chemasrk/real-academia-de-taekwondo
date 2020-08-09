@@ -67,7 +67,6 @@ const Layout = ({ children }) => {
                     <li><a href="pages/sidebar-left.html">Sidebar Left</a></li>
                     <li><a href="pages/sidebar-right.html">Sidebar Right</a></li>
                     <li><a href="pages/basic-grid.html">Basic Grid</a></li>
-                    <li><a href="pages/font-icons.html">Font Icons</a></li>
                   </ul>
                 </li>
                 <li><a className="drop" href="#">Dropdown</a>
