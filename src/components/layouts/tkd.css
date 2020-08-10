@@ -1,13 +1,4 @@
 @charset "utf-8";
-/*
-Template Name: Xanpon
-Author: <a href="https://www.os-templates.com/">OS Templates</a>
-Author URI: https://www.os-templates.com/
-Copyright: OS-Templates.com
-Licence: Free to use under our free template licence terms
-Licence URI: https://www.os-templates.com/template-terms
-File: Framework CSS
-*/
 
 html{overflow-y:scroll; overflow-x:hidden;}
 html, body{margin:0; padding:0; font-size:14px; line-height:1.6em;}
@@ -135,17 +126,6 @@ address, article, aside, figcaption, figure, footer, header, main, nav, section{
 .inspace-30{padding:30px;}
 
 
-/*
-Template Name: Xanpon
-Author: <a href="https://www.os-templates.com/">OS Templates</a>
-Author URI: https://www.os-templates.com/
-Copyright: OS-Templates.com
-Licence: Free to use under our free template licence terms
-Licence URI: https://www.os-templates.com/template-terms
-File: Layout CSS
-*/
-
-
 /* Rows
 --------------------------------------------------------------------------------------------------------------- */
 .row0, .row0 a{}
@@ -170,7 +150,10 @@ File: Layout CSS
 --------------------------------------------------------------------------------------------------------------- */
 #header{}
 
-#header #logo{margin:22px 0 0 0;}
+#header #logo{
+	margin:22px 0;
+	text-align:center;
+}
 
 
 /* Page Intro
@@ -575,7 +558,6 @@ table a, #comments a{background-color:inherit;}
 	#topbar > div:first-of-type ul li{display:block; margin:0;}
 }
 
-
 /* Other
 --------------------------------------------------------------------------------------------------------------- */
 @media screen and (max-width:650px){
@@ -588,3 +570,8 @@ table a, #comments a{background-color:inherit;}
 	.font-x2{font-size:1.6rem;}
 	.font-x3{font-size:1.8rem;}
 }
+
+
+
+/*  schedule  */
+

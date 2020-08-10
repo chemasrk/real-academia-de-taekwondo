@@ -3,7 +3,7 @@ module.exports = {
     title: `Real Academia de Taekwondo ITF`,
     description: `Entrena el verdadero taekwondo tradicional en el centro de Palma`,
     author: `@chemasrk`,
-    authorurl: `www.chemasrk.codes`,
+    authorurl: `http://www.chemasrk.codes`,
     domainurl: `www.taekwondoifmallorca.com`
   },
   plugins: [
