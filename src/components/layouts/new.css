@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background:#641b4e;
+}
+
+section{
+    position: relative;
+    padding:100px;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+}
+
+section .logo{
+    position:fixed;
+    top:30px;
+    color:#fff;
+    font-weight: 700;
+    font-size: 2rem;
+    z-index:100;
+    cursor:pointer;
+}
+
+section .bg{
+    position: absolute;
+    top:0;
+    right: 60px;
+    height: 100%;
+}
+
+section .content{
+    position: relative;
+    max-width: 650px;
+    z-index:1;
+}
+
+section .content h2{
+    color:#FFF;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+}
+
+section .content p{
+    color: #FFF;
+    font-size:1.1rem;
+}
+
+section .content a{
+    color:#FFF;
+    background: #f60f20;
+    font-size:1rem;
+    margin:20px 0;
+    font-weight: 500;
+    padding: 10px 30px;
+    display:inline-block;
+    text-decoration: none;
+}
+
+.copyrightText{
+    position:absolute;
+    bottom:20px;
+    color: #FFF;
+    font-size: 1.1rem;
+    margin: 20px 0 10px;
+}
+
+
+/*seguir viendo el video a partir del minuto 4:54*/
