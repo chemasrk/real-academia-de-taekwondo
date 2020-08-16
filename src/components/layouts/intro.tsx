@@ -86,8 +86,6 @@ const Layout = ({ children }) => {
         <div className="footer">
           <Logo options={{"className": "logoWebsite"}}/>
           <p className="copyrightText">
-            <a href={data.site.siteMetadata.domainurl}>{data.site.siteMetadata.domainurl}</a>
-            <br />
             by <a target="_blank" href={data.site.siteMetadata.authorurl} title={data.site.siteMetadata.author}>{data.site.siteMetadata.author}</a>
           </p>
         </div>
