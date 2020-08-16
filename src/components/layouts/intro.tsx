@@ -12,6 +12,7 @@ import { Link } from "gatsby"
 import Img from "gatsby-image"
 
 import "./new.css"
+import Logo from "../logo"
 
 const ChangeActive = () =>{
 
@@ -72,16 +73,25 @@ const Layout = ({ children }) => {
   return (
     <>
       <section>
-        <div className="logo">{data.site.siteMetadata.title}</div>
+        <div className="logo">
+          <h3>{data.site.siteMetadata.title}</h3>
+        </div>
         <img 
           className="bg"
           src={backgroundImg.fluid.src}  />
         <div className="content">
           {children}
         </div>
-        <p className="copyrightText">
-          <a target="_blank" href={data.site.siteMetadata.authorurl} title={data.site.siteMetadata.author}>{data.site.siteMetadata.author}</a>
-        </p>
+
+        <div className="footer">
+          <Logo options={{"className": "logoWebsite"}}/>
+          <p className="copyrightText">
+            <a href={data.site.siteMetadata.domainurl}>{data.site.siteMetadata.domainurl}</a>
+            <br />
+            by <a target="_blank" href={data.site.siteMetadata.authorurl} title={data.site.siteMetadata.author}>{data.site.siteMetadata.author}</a>
+          </p>
+        </div>
+
         <div className="menuToggle" onClick={ChangeActive}></div>
         <nav className="navigation">
           <ul>
@@ -101,6 +111,7 @@ const Layout = ({ children }) => {
           </div>
         </nav>
       </section>
+
     </>
   )
 }

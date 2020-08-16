@@ -4,7 +4,7 @@ module.exports = {
     description: `Entrena el verdadero taekwondo tradicional en el centro de Palma`,
     author: `@chemasrk`,
     authorurl: `http://www.chemasrk.codes`,
-    domainurl: `www.taekwondoifmallorca.com`
+    domainurl: `http://www.taekwondoifmallorca.com`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -29,6 +29,13 @@ module.exports = {
         icon: `src/images/school_logo.png`, // This path is relative to the root of the site.
       },
     },
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/data/`,
+      },
+    }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

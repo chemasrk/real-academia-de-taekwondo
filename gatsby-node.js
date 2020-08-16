@@ -1,7 +1,26 @@
-/**
- * Implement Gatsby's Node APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/node-apis/
- */
+const { createFilePath } = require(`gatsby-source-filesystem`)
+const { array } = require("prop-types")
 
-// You can delete this file if you're not using it
+exports.createPages = async function({actions, graphql}){
+    /*
+    const {data} = await graphql(`
+        query TkdTulListQuery {
+            allDataJson {
+                edges {
+                    node {
+                        tules {
+                            name
+                            image
+                            rank
+                            slug
+                        }
+                    }
+                }
+            }
+        }
+    `)
+    */
+
+    //console.log(data)
+
+}

@@ -1,0 +1,85 @@
+{
+"tules" : [
+    {
+      "name" : "Chon Ji",
+      "slug" : "chon-ji",
+      "movements" : 19,
+      "youtube" : "youtube.com/asdasd",
+      "meaning" : "Cuenta con 19 movimientos. Significa literalmente \"El Cielo y La Tierra\". Esto es interpretado en Oriente como la creación del mundo o el principio de la historia de la Humanidad, por tal motivo este es el primer Tul (forma) ejecutado por el principiante. El mismo consiste en dos partes similares: una representa la Tierra y la otra, el Cielo.",
+      "image" : "data/assets/cinturones/9kup.png",
+      "rank" : "9 kup"
+    },
+    {
+      "name" : "Dan Gun",
+      "slug" : "dan-gun",
+      "movements" : 21,
+      "youtube" : "youtube.com/asdasd",
+      "meaning" : "Cuenta con 21 movimientos. Significa \"El Santo\", en representación del Santo Dan-Gun, el legendario fundador de Corea en el año 2333 a. C.",
+      "image" : "data/assets/cinturones/8kup.png",
+      "rank" : "8 kup"
+    },
+    {
+      "name" : "Do San",
+      "slug" : "do-san",
+      "movements" : 24,
+      "youtube" : "youtube.com/asdasd",
+      "meaning" : "Cuenta con 24 movimientos. Significa \"El Patriota\", en representación del patriota coreano Ahn Chang-Ho (1876-1938). Los 24 movimientos representan su vida, dedicada a la educación de Corea y a su movimiento de independencia.",
+      "image" : "data/assets/cinturones/7kup.png",
+      "rank" : "7 kup"
+    },
+    {
+      "name" : "Won-Hyo",
+      "slug" : "won-hyo",
+      "movements" : 28,
+      "youtube" : "youtube.com/asdasd",
+      "meaning" : "Cuenta con 28 movimientos. Significa \"El Monje\", en representación al monje Won-Hyo, que introdujo el Budismo en la Dinastía Silla en el año 686 d. C.",
+      "image" : "data/assets/cinturones/6kup.png",
+      "rank" : "6 kup"
+    },
+    {
+      "name" : "Yul-Gok",
+      "slug" : "yul-gok",
+      "movements" : 38,
+      "youtube" : "youtube.com/asdasd",
+      "meaning" : "Cuenta con 38 movimientos. Significa \"El Erudito\". Es el seudónimo de un gran filósofo y académico Yi I (1536-1584), llamado Confucio de Corea. Los 38 movimientos de este Tul se refieren a su lugar de nacimiento en los 38 grados de latitud y el significado de su diagrama es \"el erudito\" (maestro).",
+      "image" : "data/assets/cinturones/5kup.png",
+      "rank" : "5 kup"
+    },
+    {
+      "name" : "Joong-Gun",
+      "slug" : "joong-gun",
+      "movements" : 32,
+      "youtube" : "youtube.com/asdasd",
+      "meaning" : "Cuenta con 32 movimientos. Se llama así debido al patriota An Jung-geun, que asesinó a Ito Hirobumi, el primer gobernador general japonés de Corea, conocido como el hombre que impulsó la fusión Corea Japón. Los 32 movimientos representan la edad del señor An cuando fue ejecutado en la prisión de Lui-Shung (1910).",
+      "image" : "data/assets/cinturones/4kup.png",
+      "rank" : "4 Gup"
+    },
+    {
+      "name" : "Toi-Gye",
+      "slug" : "toi-gye",
+      "movements" : 37,
+      "youtube" : "youtube.com/asdasd",
+      "meaning" : "Cuenta con 37 movimientos. Es el nombre de pluma del notable académico Yi Hwang (siglo XVI), una autoridad en el Neo-Confusionismo. Los 37 movimientos se refieren al lugar de nacimiento en los 37 grados de latitud y el significado de su diagrama es \"la escuela\".",
+      "image" : "data/assets/cinturones/3kup.png",
+      "rank" : "3 Gup"
+    },
+    {
+      "name" : "Hwarang",
+      "slug" : "hwarang",
+      "movements" : 29,
+      "youtube" : "youtube.com/asdasd",
+      "meaning" : "Hwarang - 2° Gup (rojo): Cuenta con 29 movimientos. Significa \"El guerrero\". Fue nombrado por el grupo guerrero juvenil Hwa-Rang, el cual se originó en la Dinastía Silla a principios del siglo VII. Los 29 movimientos se refieren a la vigésimo novena (29) división de infantería donde el Taekwon-Do fue desarrollado.",
+      "image" : "data/assets/cinturones/2kup.png",
+      "rank" : "2 Gup"
+    },
+    {
+      "name" : "Chung-Mu",
+      "slug" : "chung-mu",
+      "movements" : 30,
+      "youtube" : "youtube.com/asdasd",
+      "meaning" : "Cuenta con 30 movimientos Fue el nombre dado al gran almirante Yi Soon-Sin de la dinastía Yi. El tenía la reputación de haber inventado el primer barco acorazado (kobukson) en 1592; y de ser el precursor del actual submarino. La razón por la que este Tul termina con ataque de la mano izquierda, simboliza su muerte sin tener oportunidad de poder demostrar su gran potencial al Rey.",
+      "image" : "data/assets/cinturones/1kup.png",
+      "rank" : "1 Gup"
+    }
+  ]
+}
